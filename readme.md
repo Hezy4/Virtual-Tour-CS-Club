@@ -1,5 +1,7 @@
 # College of Marin VR Tour (COM VR)
+## TODO: 
 
+ -will put current tasks here as they appear-
 Welcome to the **College of Marin VR Tour** — an immersive virtual reality experience that lets users explore the beautiful campus of the College of Marin (COM) without ever leaving their room.
 
 Built using **Unity (latest version)** and targeting the **Meta Quest 3 / 3S**, this VR project aims to be both a game-like utility and a practical tool for prospective students, parents, and visitors to get a feel for the COM campus in a fun, interactive way.
