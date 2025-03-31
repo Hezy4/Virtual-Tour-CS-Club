@@ -1,0 +1,12 @@
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Pp]ackages/com.unity.*
+.obj
+*.csproj
+*.unityproj
+*.sln
+*.user
+.vscode/
+
