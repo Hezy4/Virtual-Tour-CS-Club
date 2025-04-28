@@ -15,7 +15,7 @@ G:/Unity/Projects/Virtual-Tour-CS-Club/CS-Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58046
+62699
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ G:/Unity/Projects/Virtual-Tour-CS-Club/CS-Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [60060]  Target information:
+Player connection [447924]  Target information:
 
-Player connection [60060]  * "[IP] 10.0.0.98 [Port] 0 [Flags] 2 [Guid] 1266139748 [EditorId] 1266139748 [Version] 1048832 [Id] WindowsEditor(7,LeepSupreme) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [447924]  * "[IP] 10.0.0.98 [Port] 0 [Flags] 2 [Guid] 3299881176 [EditorId] 3299881176 [Version] 1048832 [Id] WindowsEditor(7,LeepSupreme) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [60060] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [60060] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [447924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [447924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.81 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 5.17 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.41f1 (46e447368a18)
 [Subsystems] Discovering subsystems at path G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: G:/Unity/Instilations/Unity 6/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002053 seconds.
-- Loaded All Assemblies, in  0.243 seconds
+Registered in 0.002278 seconds.
+- Loaded All Assemblies, in  0.260 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.200 seconds
-Domain Reload Profiling: 443ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (100ms)
-		LoadAssemblies (82ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (88ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (200ms)
+	FinalizeReload (233ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (179ms)
+		SetupLoadedEditorAssemblies (201ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,10 +139,10 @@ Domain Reload Profiling: 443ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.493 seconds
+- Loaded All Assemblies, in  0.547 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.85 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 4.27 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,140 +180,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.519 seconds
-Domain Reload Profiling: 1011ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (319ms)
-		LoadAssemblies (203ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (233ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
+		AnalyzeDomain (186ms)
 			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (122ms)
-			BuildScriptInfoCaches (36ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (42ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (519ms)
+	FinalizeReload (557ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
+		SetupLoadedEditorAssemblies (465ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (261ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 4.83 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5587 unused Assets / (3.9 MB). Loaded Objects now: 6280.
-Memory consumption went from 163.3 MB to 159.4 MB.
-Total: 6.210100 ms (FindLiveObjects: 0.585900 ms CreateObjectMapping: 0.200300 ms MarkObjects: 3.756800 ms  DeleteObjects: 1.666200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 118685.578263 seconds.
-  path: Assets/Scenes/kais crazy scene (tongue emojii))/unity game room5.fbx
-  artifactKey: Guid(9fb2fffae921afc49a6872b751141cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/kais crazy scene (tongue emojii))/unity game room5.fbx using Guid(9fb2fffae921afc49a6872b751141cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9afb286085e12305ca0ea8b576623d8') in 0.9720879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 980
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.759181 seconds.
-  path: Assets/CS-Club/Lightmap-0_comp_dir.png
-  artifactKey: Guid(5133595a335e2b04eaafbfb3ac647afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-0_comp_dir.png using Guid(5133595a335e2b04eaafbfb3ac647afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '522fd5286def8d72fb17e63dfedcf2f6') in 0.0197919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CS-Club/Lightmap-5_comp_shadowmask.png
-  artifactKey: Guid(2d327b4a7f99959408ee53500ad57dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-5_comp_shadowmask.png using Guid(2d327b4a7f99959408ee53500ad57dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bd7c17f0e1ba842b150987dd4a60970') in 0.0156263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CS-Club/Lightmap-5_comp_light.exr
-  artifactKey: Guid(938afbf1200f19f41ac111adeeae796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-5_comp_light.exr using Guid(938afbf1200f19f41ac111adeeae796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9551cfb4f85bc8d05e2f38777bd329ab') in 0.0160761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CS-Club/ReflectionProbe-0.exr
-  artifactKey: Guid(f8d8347a9cce9724b95ccc34d1ffe152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/ReflectionProbe-0.exr using Guid(f8d8347a9cce9724b95ccc34d1ffe152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6478cda549126d4a69e59819c4a1fcae') in 0.0186965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CS-Club/Lightmap-2_comp_shadowmask.png
-  artifactKey: Guid(b989adf5edc9a2948afcb2a5ef5e3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-2_comp_shadowmask.png using Guid(b989adf5edc9a2948afcb2a5ef5e3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2bbfbfa61b0b1a67e21b56521e833b') in 0.0140266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CS-Club/Lightmap-4_comp_light.exr
-  artifactKey: Guid(fdca2eb5a26aa3c40a307533a42d4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-4_comp_light.exr using Guid(fdca2eb5a26aa3c40a307533a42d4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dbbe4d8328938a50238437b575762c6') in 0.0133675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CS-Club/Lightmap-6_comp_shadowmask.png
-  artifactKey: Guid(1c954fe006838a042ac4d4ffbb8c70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-6_comp_shadowmask.png using Guid(1c954fe006838a042ac4d4ffbb8c70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b83b8b7c7036c2a2244e81a7cdd1713') in 0.0130953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CS-Club/Lightmap-1_comp_shadowmask.png
-  artifactKey: Guid(a6cf52e55f9dc8f499776d38d3095e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-1_comp_shadowmask.png using Guid(a6cf52e55f9dc8f499776d38d3095e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e864e610ba00f8f5979e24029dfefa7') in 0.0148086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CS-Club/Lightmap-4_comp_dir.png
-  artifactKey: Guid(82f77875c66cce047bd010ffc24afce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-4_comp_dir.png using Guid(82f77875c66cce047bd010ffc24afce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44f512c87252b151bfe20ca69af3f07f') in 0.0116385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CS-Club/Lightmap-3_comp_shadowmask.png
-  artifactKey: Guid(596f75f798ebb23418d781dddb5fefe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-3_comp_shadowmask.png using Guid(596f75f798ebb23418d781dddb5fefe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fdbc96c44aa04b3db5bb3e742311ad4') in 0.0145615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CS-Club/Lightmap-3_comp_light.exr
-  artifactKey: Guid(670519d941c2c844290b957dddf7a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CS-Club/Lightmap-3_comp_light.exr using Guid(670519d941c2c844290b957dddf7a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5db80c7232a14edaebaef945fd3ec15') in 0.0137827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 5587 unused Assets / (4.0 MB). Loaded Objects now: 6280.
+Memory consumption went from 167.3 MB to 163.3 MB.
+Total: 6.220100 ms (FindLiveObjects: 0.600900 ms CreateObjectMapping: 0.441800 ms MarkObjects: 3.581700 ms  DeleteObjects: 1.595000 ms)
 
